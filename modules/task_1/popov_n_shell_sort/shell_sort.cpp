@@ -23,7 +23,7 @@ std::vector<int> gradualShellSort(const std::vector<int>& vector) {
             for (
                 int j = i - _s;
                 j >= 0 && result[j] > result[j + _s];
-                j -= _s;
+                j -= _s
             ) {
                 std::swap(result[j], result[j + _s]);
             }
